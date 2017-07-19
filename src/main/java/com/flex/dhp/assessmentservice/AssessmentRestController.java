@@ -18,7 +18,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/patients/{patientId}/assessments")
 public class AssessmentRestController extends AbstractRestController<Assessment> {
-
+    
     private final CareplanRepository careplanRepository;
     private final AssessmentRepository assessmentRepository;
 
